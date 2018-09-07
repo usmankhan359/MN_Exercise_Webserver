@@ -2,12 +2,12 @@
 The task was to create a RESTful API that returns a random password with a requested number of characters. I created it using AWS provider and terraform as my orchestration tool. 
 
 ## Installation and Usage:
-You need to install terraform first and it's scripting can be done in notepad++. To create a server I used GO language, the editor I used for it is Intellij and both are easily available for download. You must have terraform files, webserver and key file that you are using in one folder. Then you must run the following commands in order to run it
+You need to install terraform first and it's scripting can be done in notepad++. To create a server I used GO language, the editor I used for it is Intellij and both are easily available for download. You must have terraform files, webserver and key file that you are using in one folder.Please enter your key name in assignment.tf and place that key in the same folder as other files. Kinldy enter your AWS access and secret key in variables.tf file. Then you must run the following commands in order to run it
 
 1. terraform.exe init
 2. terraform plan -out usman-demo.plan (usman-demo is the server name here)
 3. terraform apply webserver.plan 
-Please enter your key name in assignment.tf and place that key in the same folder as other files. Kinldy enter your AWS access and secret key in variables.tf file.  
+  
 
 ## Why I used AWS:
 My pick was between AWS and AZURE because I have worked with them being a Software Quality Assurance Engineer at Cloudplex. Both providers are really good and have neck to neck competition in today’s market. In dramatic words you can call AWS iis the Superman and AZURE is the Batman of today’s world because they are this much close these days. 
